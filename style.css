@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    background: linear-gradient(red, blue);
+    background-clip: text;
+    color: transparent;
+    font-family: italic;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+

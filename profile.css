@@ -1,0 +1,64 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    margin-top: 5%;
+    width: 360px;
+    height: 451px;
+    background-color: white;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px -5px blanchedalmond;
+
+
+}
+
+.box:hover {
+    background: linear-gradient(red, blue,magenta);
+    color: white;
+    box-shadow: none;
+    border-radius: 15px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.thamil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button1 {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    width: 25px;
+    height: 25px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+.link:hover {
+    color: magenta;
+}
+
